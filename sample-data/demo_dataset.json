@@ -1,0 +1,69 @@
+[
+  {
+    "external_id": "python-001",
+    "question": "What is Python?",
+    "expected_answer": "Python is a high-level, interpreted, general-purpose programming language known for its readability and dynamic typing.",
+    "context": "Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.",
+    "category": "programming",
+    "metadata": {
+      "difficulty": "easy",
+      "tags": ["python", "basics"]
+    }
+  },
+  {
+    "external_id": "api-001",
+    "question": "What is an API?",
+    "expected_answer": "An API (Application Programming Interface) is an interface that allows software systems and components to communicate with each other.",
+    "context": "An application programming interface (API) is a way for two or more computer programs or components to communicate with each other. It provides a defined set of specifications and protocols for requesting and delivering services.",
+    "category": "backend",
+    "metadata": {
+      "difficulty": "easy",
+      "tags": ["architecture", "web"]
+    }
+  },
+  {
+    "external_id": "faithfulness-001",
+    "question": "According to the context, what year was NovaTech Solutions founded?",
+    "expected_answer": "The provided context does not mention the year NovaTech Solutions was founded.",
+    "context": "NovaTech Solutions is an enterprise cloud software company based in Seattle, Washington. The company delivers real-time telemetry and database monitoring tools to Fortune 500 customers across North America and Europe.",
+    "category": "faithfulness",
+    "metadata": {
+      "difficulty": "medium",
+      "expected_abstention": true,
+      "tags": ["groundedness", "negative-test"]
+    }
+  },
+  {
+    "external_id": "hallucination-001",
+    "question": "Which astronomical telescope discovered the moons of Jupiter in 1610, and who operated it?",
+    "expected_answer": "Galileo Galilei observed the four largest moons of Jupiter in 1610 using a telescope he constructed himself.",
+    "context": "In January 1610, Italian astronomer Galileo Galilei directed his newly constructed refracting telescope toward Jupiter and discovered the four largest moons of Jupiter: Io, Europa, Ganymede, and Callisto. These are now known as the Galilean moons.",
+    "category": "science",
+    "metadata": {
+      "difficulty": "medium",
+      "tags": ["astronomy", "history"]
+    }
+  },
+  {
+    "external_id": "general-001",
+    "question": "Explain the difference between process and thread in operating systems.",
+    "expected_answer": "A process is an independent program in execution with its own dedicated memory space, whereas a thread is a lightweight execution unit within a process that shares memory and resources with other threads of the same process.",
+    "context": null,
+    "category": "operating-systems",
+    "metadata": {
+      "difficulty": "hard",
+      "tags": ["concurrency", "os"]
+    }
+  },
+  {
+    "external_id": "database-001",
+    "question": "What are ACID properties in database transaction management?",
+    "expected_answer": "ACID stands for Atomicity, Consistency, Isolation, and Durability, four key properties that guarantee database transactions are processed reliably.",
+    "context": "In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a set of properties of database transactions intended to guarantee data validity despite errors, power failures, or crashes.",
+    "category": "databases",
+    "metadata": {
+      "difficulty": "medium",
+      "tags": ["sql", "storage"]
+    }
+  }
+]
